@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+
+@media only screen and ( max-width:1200px) {
+
+.phone { font-size:22px; }
+
+/*paging css start*/
+.phone1 { font-size:22px; }
+/*paging css end*/
+
+}
+
+@media only screen and ( max-width:960px) {
+
+.logo { }
+.phone { margin-top:0px; }
+
+.callback .form-group input.code { width:60%; }
+
+/*paging css start*/
+.paging { display:none; }
+.phone1 { display:none; }
+/*paging css end*/
+
+}
+
+@media only screen and ( max-width:768px) {
+
+.callback .form-group input.code { width:70%; }
+
+.bottom h2 { margin-top:15px; }
+.footer { text-align:center; }
+.copy { text-align:center; }
+.powered_by { float:none; text-align:center; }
+
+}
+
+@media only screen and ( max-width:480px) {
+
+.callback .form-group input.code { width:60%; }
+
+}
+
+@media only screen and ( max-width:320px) {
+
+.callback .form-group input.code { width:50%; }
+
+.services_box { padding:15px; }
+.services_box .box_left { float:left; width:25%; }
+.services_box .box_right { float:left; width:75%; }
+.services_box .box_right .text { font-size:13px; }
+.services_box .box_left i fa-3x { margin-right:10px; font-size:10px; }
+
+}
