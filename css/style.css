@@ -102,7 +102,7 @@ img{vertical-align:middle; border:none;}
 #testimonials .testimonial_text { font-family:'Roboto', serif; color:#FFF; font-size:16px; font-weight:400; line-height:1.6em;  }
 #testimonials .testimonial_name { font-family:'Roboto', serif; color:#FFF; font-size:16px; font-weight:700; margin:10px auto 3px; }
 #t_pagers{ position:absolute; left:49%; bottom:-35px; z-index:2; }
-#t_pagers .pager { display:inline-block; text-decoration:none; width:10px; min-height:10px; margin-right:5px; background:#f26529; border-radius:50%; cursor:pointer; }
+#t_pagers .pager { display:inline-block; text-decoration:none; width:10px; min-height:10px; margin-right:5px; background:#3c5980; border-radius:50%; cursor:pointer; }
 #t_pagers .pager.active { background:#FFF; }
 /* testimonial css end*/
 
